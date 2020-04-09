@@ -8,6 +8,7 @@ typedef NS_ENUM(NSInteger, VANDateType) {
     VANDateTypeSecond, //0000-00-00 00:00:00
     VANDateTypeDot, //0000.00.00
 };
+
 @interface NSString(Expand)
 
 //MD5

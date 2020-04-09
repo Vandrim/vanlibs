@@ -1,6 +1,6 @@
 
 #import <UIKit/UIKit.h>
-#import "ReactiveObjC.h"
+@class RACSignal;
 
 @interface UITextView (Expand)
 
