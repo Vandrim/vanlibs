@@ -48,6 +48,12 @@ NS_ASSUME_NONNULL_BEGIN
 //UIImage:去色功能的实现（图片灰色显示）
 + (UIImage*)imageDiscoloration:(UIImage*)sourceImage;
 
+//根据出生日期返回年龄的方法
++ (NSString *)dateStrToAge:(NSString *)birthday;
+
+//根据出生日期返回年龄的方法
++ (NSInteger)dateToAge:(NSDate *)birthday;
+
 @end
 
 NS_ASSUME_NONNULL_END
