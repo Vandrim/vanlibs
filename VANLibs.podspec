@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = "VANLibs"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A Framework of iOS development. It will help developer more efficient"
-  s.homepage     = "https://github.com/Vandrim/VANFramework"
+  s.homepage     = "https://github.com/Vandrim/vanlibs"
   s.license      = "MIT"
-  s.author       = { "vandrim" => "vandrim@163.com"}
+  s.author       = { "vandrim" => "vandrim@163.com" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/Vandrim/vanlibs.git", :tag => "#{s.version}" }
   s.frameworks   = "Foundation", "UIKit"
