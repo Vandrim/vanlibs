@@ -48,7 +48,7 @@
 
 //error
 #define VANErrorDomain @"com.error.van"
-#define VANERROR(errorCode,errorStr) [NSError errorWithDomain:ErrorDomain code:errorCode  userInfo:@{NSLocalizedDescriptionKey:("%@",errorStr)}]
+#define VANERROR(errorCode,errorStr) [NSError errorWithDomain:VANErrorDomain code:errorCode  userInfo:@{NSLocalizedDescriptionKey:("%@",errorStr)}]
 
 //去除字符串空格
 #define VANRemoveSpace(str) [("%@",str) stringByReplacingOccurrencesOfString:@" " withString:@""]
