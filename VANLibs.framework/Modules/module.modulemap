@@ -1,0 +1,6 @@
+framework module VANLibs {
+  umbrella header "VANLibs.h"
+
+  export *
+  module * { export * }
+}
