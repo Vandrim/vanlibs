@@ -4,9 +4,9 @@
 @interface VANKeyedArchiver : NSObject
 
 //获取数据
-+(id)getDataWithFileName:(NSString *)fileName;
++ (id)readDataWithFileName:(NSString *)fileName;
 
 //存储数据
-+(void)saveDataWithData:(id)data andFileName:(NSString *)fileName;
++ (void)saveData:(id)data andFileName:(NSString *)fileName;
 
 @end
