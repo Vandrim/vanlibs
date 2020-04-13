@@ -6,6 +6,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface VANCommen : NSObject
 
+//默认配置UIScrollViewContentInsetAdjustmentNever、UITextField&UITextView的tintcolor为"#333333"、IQKeyboardManager
++ (void)defaultConfig;
+
 //获取当前屏幕显示的viewcontroller
 + (UIViewController *)currentViewController;
 
@@ -23,6 +26,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 //当前app版本
 + (NSString *)currentAppVersion;
+
+//当前app名字
++ (NSString *)currentAppName;
 
 //手机号码验证
 + (BOOL)validateMobile:(NSString *)mobile;

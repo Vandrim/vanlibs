@@ -6,6 +6,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface VANAuthorizationStatusManager : NSObject
 
+//网络权限
++ (void)networkEnable:(void(^_Nullable)(BOOL enable))authorizedResultBlock;
 //麦克风权限
 + (void)microphoneEnable:(void(^_Nullable)(BOOL enable))authorizedResultBlock;
 //相机权限
