@@ -42,6 +42,7 @@ FOUNDATION_EXPORT const unsigned char VANLibsVersionString[];
 #import "UILabel+Expand.h"
 #import "UITextField+Expand.h"
 #import "UITextView+Expand.h"
+#import "VANTextViewWithPH.h"
 #import "VANHudView.h"
 #import "UIView+Expand.h"
 #import "VANRadianView.h"
@@ -50,3 +51,5 @@ FOUNDATION_EXPORT const unsigned char VANLibsVersionString[];
 #import "VANAssetOperator.h"
 #import "VANNetworkManager.h"
 #import "VANPopView.h"
+#import "VANModel.h"
+#import "VANVMModel.h"

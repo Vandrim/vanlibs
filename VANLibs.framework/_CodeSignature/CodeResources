@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/NSString+Expand.h</key>
 		<data>
-		IZNU6evrR2CGpVuKHt+/7xg3SPc=
+		7m0ZjGobizOFp8nFWuFe3RtBL84=
 		</data>
 		<key>Headers/UIButton+Expand.h</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/UIView+Expand.h</key>
 		<data>
-		Yqxed4Te3LJSD/pdph0fyQghRe0=
+		M7SIrDEql04X3Pj8iehnLQC2KAE=
 		</data>
 		<key>Headers/UIViewController+Expand.h</key>
 		<data>
@@ -98,11 +98,15 @@
 		</data>
 		<key>Headers/VANLibs.h</key>
 		<data>
-		z6Fp3CaNW6fzEu+Vr5uluvJbDNc=
+		tC+YmivvkXSKtGBU+9oEnEiUaSI=
 		</data>
 		<key>Headers/VANLine.h</key>
 		<data>
-		ZmfiCBbFk5sRjPg2G4i6fw3Dteo=
+		ZuBkzEHV2X/uED9jJEydjgzBpQI=
+		</data>
+		<key>Headers/VANModel.h</key>
+		<data>
+		gkHFOYX8JCQ8B2Rp5aKIwOH7E7Y=
 		</data>
 		<key>Headers/VANNavigationController.h</key>
 		<data>
@@ -124,13 +128,21 @@
 		<data>
 		XhHLmwdYGEbv6uSll2hcZ7M+xvI=
 		</data>
+		<key>Headers/VANTextViewWithPH.h</key>
+		<data>
+		hNEmsaA0g9464bkrQ7NqnS9T9Sc=
+		</data>
 		<key>Headers/VANTopAdapterView.h</key>
 		<data>
 		0QDW3CS2W6nutS4e50o1Qvc4QwQ=
 		</data>
 		<key>Headers/VANUIViewController.h</key>
 		<data>
-		7k83Rn84/oJBKWnFSZfsFp1R4MQ=
+		IVzoCrRZlMif1K/yH5XoOGhd8AE=
+		</data>
+		<key>Headers/VANVMModel.h</key>
+		<data>
+		1vjOOUQuJT4zd4xg/1PSeTCW9sQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -181,11 +193,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IZNU6evrR2CGpVuKHt+/7xg3SPc=
+			7m0ZjGobizOFp8nFWuFe3RtBL84=
 			</data>
 			<key>hash2</key>
 			<data>
-			d46rBdbdAamRCyZ1blYvpLfgiyRPqdhsXVGpQGhJwIw=
+			/w066oKmujRf6g8r+n/iAV4qijhvxgBkCX24b4Gynmw=
 			</data>
 		</dict>
 		<key>Headers/UIButton+Expand.h</key>
@@ -280,11 +292,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Yqxed4Te3LJSD/pdph0fyQghRe0=
+			M7SIrDEql04X3Pj8iehnLQC2KAE=
 			</data>
 			<key>hash2</key>
 			<data>
-			bLdOWW/eymdttY9t7qE/9ygSQLIF8SaJybp8iXYB7ww=
+			eaepX093TzqAxJ8gPFDYQ2mz1vvUwcCLDYIyfed42PM=
 			</data>
 		</dict>
 		<key>Headers/UIViewController+Expand.h</key>
@@ -412,22 +424,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			z6Fp3CaNW6fzEu+Vr5uluvJbDNc=
+			tC+YmivvkXSKtGBU+9oEnEiUaSI=
 			</data>
 			<key>hash2</key>
 			<data>
-			QY2wO6owXtQD/qLjeW3o7ZPlQerDRJGY87n7Mo3Si6s=
+			n5X+4l4WfVHP72yruI8rgBueYYfe4cEhQjkacTjPSIo=
 			</data>
 		</dict>
 		<key>Headers/VANLine.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZmfiCBbFk5sRjPg2G4i6fw3Dteo=
+			ZuBkzEHV2X/uED9jJEydjgzBpQI=
 			</data>
 			<key>hash2</key>
 			<data>
-			sRWlq8om47sfadB/Lchf3nnRSE05GE5sOwc2cOxB70g=
+			dav+lJTeM57k+nNiheFDWTwYT0K9iHYiwtkcdZr0eYY=
+			</data>
+		</dict>
+		<key>Headers/VANModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gkHFOYX8JCQ8B2Rp5aKIwOH7E7Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			vnDUpC1bIaRe+53yVUbtkqI6A81FnTLsijq69dDCC2E=
 			</data>
 		</dict>
 		<key>Headers/VANNavigationController.h</key>
@@ -485,6 +508,17 @@
 			d2TJHUYZx8wWk+opBRz8B2c+jWk3ue/wjDkoLUslsPQ=
 			</data>
 		</dict>
+		<key>Headers/VANTextViewWithPH.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hNEmsaA0g9464bkrQ7NqnS9T9Sc=
+			</data>
+			<key>hash2</key>
+			<data>
+			sJMtHYwoQg3pa8Wil0impWUlO3mvY75QgE/JX0Y2E9I=
+			</data>
+		</dict>
 		<key>Headers/VANTopAdapterView.h</key>
 		<dict>
 			<key>hash</key>
@@ -500,11 +534,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7k83Rn84/oJBKWnFSZfsFp1R4MQ=
+			IVzoCrRZlMif1K/yH5XoOGhd8AE=
 			</data>
 			<key>hash2</key>
 			<data>
-			a45zZ2fgoAXUiW2P0tHZt4ncRMURRRNXGLsGWNvu9dE=
+			khhdyQnYQCueh9dshXeGUukrRrP8dSBv7lP48RHFhDs=
+			</data>
+		</dict>
+		<key>Headers/VANVMModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1vjOOUQuJT4zd4xg/1PSeTCW9sQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			op+1vgWNGXB7brSdqukNmYIZ1JmeLCcswqe8/oengM0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

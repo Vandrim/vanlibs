@@ -6,6 +6,11 @@ NS_ASSUME_NONNULL_BEGIN
 @interface VANUIViewController : UIViewController
 
 /**
+ 判断vc有没有消失 (不包含进入后台的判断)
+*/
+@property (assign, nonatomic) BOOL viewDisappear;
+
+/**
  设置屏幕方向
 */
 - (void)changeInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation;

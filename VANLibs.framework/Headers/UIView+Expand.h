@@ -26,6 +26,16 @@ NS_ASSUME_NONNULL_BEGIN
                 withRadii:(CGSize)radii
                  viewRect:(CGRect)rect;
 
+/**
+ *  单击手势
+ */
+- (void)tapWithBlock:(void(^ _Nonnull)(id sender))tapBlock;
+
+/**
+ *  长按手势
+ */
+- (void)longPressWithBlock:(void(^ _Nonnull)(id sender))longPressBlock;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -77,4 +77,7 @@ typedef enum {
 //将金额转成汉字大写
 - (NSString *)formatMoneyWithCapitalChineseLetters;
 
+//将字符串转为本地名字相同的图片
+- (UIImage *)image;
+
 @end
