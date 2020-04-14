@@ -18,10 +18,13 @@ typedef NS_ENUM(NSInteger, VANPopStyle) {
 - (void)showWithStyle:(VANPopStyle)popStyle view:(UIView *)view;
 
 //show
-- (void)showWithStyle:(VANPopStyle)popStyle view:(UIView *)view animation:(BOOL)animation completion:(void(^_Nullable)(NSError * _Nullable error))completion;
+- (void)showWithStyle:(VANPopStyle)popStyle view:(UIView *)view tap:(BOOL)bgTap;
 
 //show
-- (void)showWithStyle:(VANPopStyle)popStyle view:(UIView *)view animation:(BOOL)animation remove:(BOOL)removeOPV completion:(void(^_Nullable)(NSError * _Nullable error))completion;
+- (void)showWithStyle:(VANPopStyle)popStyle view:(UIView *)view tap:(BOOL)bgTap animation:(BOOL)animation completion:(void(^_Nullable)(NSError * _Nullable error))completion;
+
+//show
+- (void)showWithStyle:(VANPopStyle)popStyle view:(UIView *)view tap:(BOOL)bgTap animation:(BOOL)animation remove:(BOOL)removeOPV completion:(void(^_Nullable)(NSError * _Nullable error))completion;
 
 //hide
 - (void)hide;
