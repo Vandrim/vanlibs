@@ -98,7 +98,7 @@
 		</data>
 		<key>Headers/VANLibs.h</key>
 		<data>
-		VAk8qU8NgfuDpyKI3iG0tfTPZfw=
+		z6Fp3CaNW6fzEu+Vr5uluvJbDNc=
 		</data>
 		<key>Headers/VANLine.h</key>
 		<data>
@@ -111,6 +111,10 @@
 		<key>Headers/VANNetworkManager.h</key>
 		<data>
 		UDd5NzLVbS0Q8V3jGerktw1ETGQ=
+		</data>
+		<key>Headers/VANPopView.h</key>
+		<data>
+		eE8kAfhcjs7CPQXHkG2m4fdWOBk=
 		</data>
 		<key>Headers/VANRadianView.h</key>
 		<data>
@@ -408,11 +412,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VAk8qU8NgfuDpyKI3iG0tfTPZfw=
+			z6Fp3CaNW6fzEu+Vr5uluvJbDNc=
 			</data>
 			<key>hash2</key>
 			<data>
-			O8ePUWA7YO5nTj1uEtaWRzvjWTHGSQYOm7rDmijSGJ4=
+			QY2wO6owXtQD/qLjeW3o7ZPlQerDRJGY87n7Mo3Si6s=
 			</data>
 		</dict>
 		<key>Headers/VANLine.h</key>
@@ -446,6 +450,17 @@
 			<key>hash2</key>
 			<data>
 			/Cih2fAvnKgoYhkZEA2L1Ih6aEalUv8PFwa7efjb570=
+			</data>
+		</dict>
+		<key>Headers/VANPopView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eE8kAfhcjs7CPQXHkG2m4fdWOBk=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZTxF3XXhaMBYRkqp7p/PLFJtz4MmcHawVwxDEdc7f4E=
 			</data>
 		</dict>
 		<key>Headers/VANRadianView.h</key>
