@@ -14,16 +14,16 @@
  *  下载图片资源
  *  imageURL 图片地址 为String类型
  */
-+ (void)loadImagesWithURL:(NSString *)imageURL
-               andTimeOut:(NSTimeInterval)timeout
-              andProgress:(void(^)(NSInteger receivedSize, NSInteger expectedSize))progressBlock
-            andCompletion:(void(^)(UIImage *image))completionBlock;
++ (void)downloadImageWithURL:(NSString *)imageURL
+                  andTimeOut:(NSTimeInterval)timeout
+                 andProgress:(void(^)(NSInteger receivedSize, NSInteger expectedSize))progressBlock
+               andCompletion:(void(^)(UIImage *image))completionBlock;
 
 /*
  *  批量下载图片资源
  *  imageURLs 图片地址数组 成员为String类型
  */
-+ (void)prefetchImagesWithURLs:(NSArray <NSString *> *)imageURLs
++ (void)downloadImagesWithURLs:(NSArray <NSString *> *)imageURLs
                    andMaxCount:(NSInteger)maxCount
                     andTimeOut:(NSTimeInterval)timeout
                    andProgress:(void(^)(NSUInteger noOfFinishedUrls, NSUInteger noOfTotalUrls))progressBlock

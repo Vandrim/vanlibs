@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/UIView+Expand.h</key>
 		<data>
-		M7SIrDEql04X3Pj8iehnLQC2KAE=
+		5lk8g+tbNxBxGowlmmgqPet0f4I=
 		</data>
 		<key>Headers/UIViewController+Expand.h</key>
 		<data>
@@ -74,7 +74,11 @@
 		</data>
 		<key>Headers/VANConstant.h</key>
 		<data>
-		t9u6kES9L2Wcr2zvV4k/r3WjhDQ=
+		s2EY1UV++IoIFvFf1Gy8kcTH7U0=
+		</data>
+		<key>Headers/VANDownloadManager.h</key>
+		<data>
+		VwDc5eg7K4pRTsCYaEmPcoR57lk=
 		</data>
 		<key>Headers/VANHighlightedButton.h</key>
 		<data>
@@ -86,7 +90,7 @@
 		</data>
 		<key>Headers/VANImagePrefetch.h</key>
 		<data>
-		mjfCbG/zWqmk5HEfKrb+UbOPr/A=
+		DWPTZOwjDvKgcdfsdpiQGQgrfRQ=
 		</data>
 		<key>Headers/VANKeychainTool.h</key>
 		<data>
@@ -98,7 +102,7 @@
 		</data>
 		<key>Headers/VANLibs.h</key>
 		<data>
-		tC+YmivvkXSKtGBU+9oEnEiUaSI=
+		TfrLXB3iFHV0gorJbxgZBWbYQFQ=
 		</data>
 		<key>Headers/VANLine.h</key>
 		<data>
@@ -146,7 +150,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kaDUdUuMoFtcizyryQCo6kIplbo=
+		f0dcrqOX2I0QAcKfFDJ95ZUSmUs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -292,11 +296,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			M7SIrDEql04X3Pj8iehnLQC2KAE=
+			5lk8g+tbNxBxGowlmmgqPet0f4I=
 			</data>
 			<key>hash2</key>
 			<data>
-			eaepX093TzqAxJ8gPFDYQ2mz1vvUwcCLDYIyfed42PM=
+			i33ZGyrpYK/PPh3uzZCDpKXrsvItDLmWrtHDSKN8OWk=
 			</data>
 		</dict>
 		<key>Headers/UIViewController+Expand.h</key>
@@ -358,11 +362,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			t9u6kES9L2Wcr2zvV4k/r3WjhDQ=
+			s2EY1UV++IoIFvFf1Gy8kcTH7U0=
 			</data>
 			<key>hash2</key>
 			<data>
-			RCFPzBpW0dMiiQ33B6brwfyeoV1KEdj1qZ69JHXyDcg=
+			y1x1gPlZ6egGLakq3IAkUN9l8duT32jhYAGt1wlfJps=
+			</data>
+		</dict>
+		<key>Headers/VANDownloadManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VwDc5eg7K4pRTsCYaEmPcoR57lk=
+			</data>
+			<key>hash2</key>
+			<data>
+			F26uscWbtkLaheZNtSc3QV86pI9FOfgz/AGznSRYCOE=
 			</data>
 		</dict>
 		<key>Headers/VANHighlightedButton.h</key>
@@ -391,11 +406,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mjfCbG/zWqmk5HEfKrb+UbOPr/A=
+			DWPTZOwjDvKgcdfsdpiQGQgrfRQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Lebp4BjSR9lfYTMNSs5bDLDtlT5l6N9Ujtlh2B0HXsQ=
+			E0NxPpCR+yPF8CQT4JGvaNIghbr6FfyYZrTA+2MBnM8=
 			</data>
 		</dict>
 		<key>Headers/VANKeychainTool.h</key>
@@ -424,11 +439,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tC+YmivvkXSKtGBU+9oEnEiUaSI=
+			TfrLXB3iFHV0gorJbxgZBWbYQFQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			n5X+4l4WfVHP72yruI8rgBueYYfe4cEhQjkacTjPSIo=
+			ePcZmsf49q/q/3XjGOwpXCM6ApqJwkGFIIYWNU3oYOg=
 			</data>
 		</dict>
 		<key>Headers/VANLine.h</key>

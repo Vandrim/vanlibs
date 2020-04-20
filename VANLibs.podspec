@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "VANLibs"
-  s.version      = "0.0.18"
+  s.version      = "0.0.19"
   s.summary      = "A Framework of iOS development. It will help developer more efficient"
   s.homepage     = "https://github.com/Vandrim/vanlibs"
   s.license      = "MIT"
@@ -23,5 +23,4 @@ Pod::Spec.new do |s|
   s.dependency 'FLAnimatedImage', '~> 1.0.12'
   s.dependency 'MJRefresh', '~> 3.3.1'
   s.dependency 'IQKeyboardManager'
-  s.dependency 'PinYin4Objc', '>= 1.1.1'
 end

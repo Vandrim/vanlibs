@@ -32,6 +32,16 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)tapWithBlock:(void(^ _Nonnull)(id sender))tapBlock;
 
 /**
+ *  双击手势
+ */
+- (void)doubleTapWithBlock:(void(^ _Nonnull)(id sender))doubleTapBlock;
+
+/**
+ *  同时添加单击、双击手势
+ */
+- (void)tapWithBlock:(void(^ _Nonnull)(id sender))tapBlock doubleTapWithBlock:(void(^ _Nonnull)(id sender))doubleTapBlock;
+
+/**
  *  长按手势
  */
 - (void)longPressWithBlock:(void(^ _Nonnull)(id sender))longPressBlock;

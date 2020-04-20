@@ -38,7 +38,7 @@
 #define VANUserDefaults [NSUserDefaults standardUserDefaults]
 
 //判断字符串是否有值
-#define VAN_NULL_OR_EMPTY(str) ((NSNull *)str == [NSNull null] || str == nil || ((NSString *)[NSString stringWithFormat:@"%@",str]).length == 0)
+#define NULL_OR_EMPTY(str) ((NSNull *)str == [NSNull null] || str == nil || ((NSString *)[NSString stringWithFormat:@"%@",str]).length == 0)
 
 //弹框的TAG
 #define VANPOPTAG 1022
