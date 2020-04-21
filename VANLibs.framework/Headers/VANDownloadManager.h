@@ -11,10 +11,12 @@ NS_ASSUME_NONNULL_BEGIN
 /** 下载进度 */
 @property (nonatomic,copy) void(^ _Nullable progressBlock)(unsigned long long receivedSize, unsigned long long expectedSize);
 /** 下载结果 */
-@property (nonatomic,copy) void(^ _Nullable completionBlock)(NSURL * _Nullable filepath);
+@property (nonatomic,copy) void(^ _Nullable completionBlock)(NSString * _Nullable filepath);
 @end
 
 @interface VANDownloadManager : NSObject
+
++ (instancetype)shareManager;
 
 /*
  *  下载一组资源
@@ -23,7 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSArray<VANDownloadModel *> *)downloadItemsWithURLs:(NSArray *)itemURLs
                                             andTimeOut:(NSTimeInterval)timeout
                                            andMaxCount:(NSInteger)maxCount
-                                           andProgress:(void(^)(NSInteger completedCount, NSInteger allCount))progressBlock;
+                                           andProgress:(void(^ _Nullable)(NSInteger completedCount, NSInteger allCount))progressBlock;
 
 /*
  *  下载单个资源
@@ -31,8 +33,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (VANDownloadModel *)downloadItemWithURL:(NSString *)itemURL
                                andTimeOut:(NSTimeInterval)timeout
-                              andProgress:(void(^)(unsigned long long receivedSize, unsigned long long expectedSize))progressBlock
-                            andCompletion:(void(^)(NSURL *filepath))completionBlock;
+                              andProgress:(void(^ _Nullable)(unsigned long long receivedSize, unsigned long long expectedSize))progressBlock
+                            andCompletion:(void(^ _Nullable)(NSString * _Nullable filepath))completionBlock;
 
 
 /**
