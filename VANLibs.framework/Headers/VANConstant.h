@@ -84,6 +84,14 @@ dispatch_async(queue, block);\
 #define van_dispatch_main_async_safe(block) dispatch_queue_async_safe(dispatch_get_main_queue(), block)
 #endif
 
+//当只想在Debug版本中记录调试信息，可以使用VANLog()函数。如果想在所有版本中都记录调试信息可以直接使用VANLog()函数。
+#ifdef DEBUG
+//__VA_ARGS__代表可变参数宏
+#define VANLog(format, ...) VANLog(format, ##__VA_ARGS__)
+#else
+#define VANLog(format, ...)
+#endif
+
 
 
 

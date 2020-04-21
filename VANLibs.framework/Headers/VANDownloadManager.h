@@ -10,8 +10,13 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy,readonly) NSString *cachePath;
 /** 下载进度 */
 @property (nonatomic,copy) void(^ _Nullable progressBlock)(unsigned long long receivedSize, unsigned long long expectedSize);
+/** 下载速度 */
+@property (nonatomic,copy) void(^ _Nullable speedBlock)(NSString * _Nullable speed);
 /** 下载结果 */
 @property (nonatomic,copy) void(^ _Nullable completionBlock)(NSString * _Nullable filepath);
+@end
+
+@interface VANDownloadTask : NSObject
 @end
 
 @interface VANDownloadManager : NSObject
@@ -25,7 +30,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSArray<VANDownloadModel *> *)downloadItemsWithURLs:(NSArray *)itemURLs
                                             andTimeOut:(NSTimeInterval)timeout
                                            andMaxCount:(NSInteger)maxCount
-                                           andProgress:(void(^ _Nullable)(NSInteger completedCount, NSInteger allCount))progressBlock;
+                                           andProgress:(void(^ _Nullable)(NSInteger completedCount, NSInteger allCount))progressBlock
+                                              andSpeed:(void(^ _Nullable)(NSString * _Nullable speed))speedBlock
+                                         andCompletion:(void(^ _Nullable)(void))completionBlock;
 
 /*
  *  下载单个资源
@@ -34,8 +41,25 @@ NS_ASSUME_NONNULL_BEGIN
 - (VANDownloadModel *)downloadItemWithURL:(NSString *)itemURL
                                andTimeOut:(NSTimeInterval)timeout
                               andProgress:(void(^ _Nullable)(unsigned long long receivedSize, unsigned long long expectedSize))progressBlock
+                                 andSpeed:(void(^ _Nullable)(NSString * _Nullable speed))speedBlock
                             andCompletion:(void(^ _Nullable)(NSString * _Nullable filepath))completionBlock;
 
+
+/**
+ *
+ *   获取缓存的文件夹的路径
+ */
++ (NSString *)cachePath:(NSString *)itemURL;
+
+/**
+ 缓存大小
+ */
++ (NSUInteger)cacheSizes;
+
+/**
+ 清理缓存
+ */
++ (void)clearCaches;
 
 /**
  暂停某一个下载
