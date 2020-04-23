@@ -51,6 +51,11 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)cachePath:(NSString *)itemURL;
 
 /**
+ 是否已缓存
+ */
++ (BOOL)isCached:(NSString *)itemURL;
+
+/**
  缓存大小
  */
 + (NSUInteger)cacheSizes;
