@@ -46,8 +46,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /**
- *
- *   获取缓存的文件夹的路径
+ 获取缓存的文件夹的路径
  */
 + (NSString *)cachePath:(NSString *)itemURL;
 
@@ -82,8 +81,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)resumeAllTask;
 
 /**
- *
- *  取消正在下载的任务
+ 取消正在下载的任务
  */
 - (void)cancelTask:(VANDownloadModel *)item;
 
