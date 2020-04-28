@@ -15,6 +15,11 @@ NS_ASSUME_NONNULL_BEGIN
 */
 - (void)changeInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation;
 
+/*
+ 设备方向发生改变
+ */
+- (void)deviceOrientationDidChange:(UIDeviceOrientation)deviceOrientation;
+
 @end
 
 NS_ASSUME_NONNULL_END
