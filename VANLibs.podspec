@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "VANLibs"
-  s.version      = "0.2.15"
+  s.version      = "0.3.0"
   s.summary      = "A Framework of iOS development. It will help developer more efficient"
   s.homepage     = "https://github.com/Vandrim/vanlibs"
   s.license      = "MIT"
@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "VANLibs.framework"
   s.requires_arc = true
   s.dependency 'Masonry', '~> 1.1.0'
-  s.dependency 'AFNetworking', '~> 4.0.0'
   s.dependency 'MJExtension', '~> 3.0.17'
   s.dependency 'ReactiveObjC', '~> 3.1.1'
   s.dependency 'SDWebImage', '~> 5.7.0'

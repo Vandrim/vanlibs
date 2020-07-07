@@ -76,10 +76,6 @@
 		<data>
 		TkmcNKy6keO0oBbtvrFplqw7fqM=
 		</data>
-		<key>Headers/VANDownloadManager.h</key>
-		<data>
-		L72LqkPpDkPjwgzDGRdcpeeiNT0=
-		</data>
 		<key>Headers/VANHighlightedButton.h</key>
 		<data>
 		HGTazqusGQNN4wbIPxnIx04Hri8=
@@ -102,7 +98,7 @@
 		</data>
 		<key>Headers/VANLibs.h</key>
 		<data>
-		TfrLXB3iFHV0gorJbxgZBWbYQFQ=
+		tC+YmivvkXSKtGBU+9oEnEiUaSI=
 		</data>
 		<key>Headers/VANLine.h</key>
 		<data>
@@ -369,17 +365,6 @@
 			xFy5OUOa1d3JpWS6V/BLSvdMsN9xhKHvP3o3p8/lQj4=
 			</data>
 		</dict>
-		<key>Headers/VANDownloadManager.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			L72LqkPpDkPjwgzDGRdcpeeiNT0=
-			</data>
-			<key>hash2</key>
-			<data>
-			F0wikpt1So9BmjCKt0/VYqp5mR3GTh6J5kZTae1iTUo=
-			</data>
-		</dict>
 		<key>Headers/VANHighlightedButton.h</key>
 		<dict>
 			<key>hash</key>
@@ -439,11 +424,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TfrLXB3iFHV0gorJbxgZBWbYQFQ=
+			tC+YmivvkXSKtGBU+9oEnEiUaSI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ePcZmsf49q/q/3XjGOwpXCM6ApqJwkGFIIYWNU3oYOg=
+			n5X+4l4WfVHP72yruI8rgBueYYfe4cEhQjkacTjPSIo=
 			</data>
 		</dict>
 		<key>Headers/VANLine.h</key>
