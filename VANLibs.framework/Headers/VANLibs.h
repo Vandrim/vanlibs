@@ -48,7 +48,6 @@ FOUNDATION_EXPORT const unsigned char VANLibsVersionString[];
 #import "VANRadianView.h"
 #import "UIImageView+Expand.h"
 #import "VANImagePrefetch.h"
-#import "VANDownloadManager.h"
 #import "VANAssetOperator.h"
 #import "VANNetworkManager.h"
 #import "VANPopView.h"
