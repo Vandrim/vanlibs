@@ -32,6 +32,9 @@ typedef NS_ENUM(NSInteger, VANPopStyle) {
 //hide
 - (void)hideWithAnimation:(BOOL)animation completion:(void(^_Nullable)(NSError * _Nullable error))completion;
 
+//bgTap
+- (void)bgTap;
+
 //适配
 - (void)adapter;
 

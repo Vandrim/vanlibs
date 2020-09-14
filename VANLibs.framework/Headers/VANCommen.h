@@ -60,6 +60,21 @@ NS_ASSUME_NONNULL_BEGIN
 //根据出生日期返回年龄的方法
 + (NSInteger)dateToAge:(NSDate *)birthday;
 
+//UrlToMIME
++ (void)urlToMIME:(NSURL *)url completionHandler:(void(^)(NSString *mimeType))completion;
+
+//获取应用市场的信息
++ (void)fetchAppStoreInfoWithAppId:(NSString *)appid andResultBlock:(void(^)(NSString * _Nullable  currentVersion , NSDictionary * _Nullable  responseDict , NSError * _Nullable error))resultBlock;
+
+/**
+ 比较两个版本号的大小（2.0）
+ 
+ @param v1 第一个版本号
+ @param v2 第二个版本号
+ @return 版本号相等,返回0; v1小于v2,返回-1; 否则返回1.
+ */
++ (NSInteger)compareVersion:(NSString *)v1 to:(NSString *)v2;
+
 @end
 
 NS_ASSUME_NONNULL_END
