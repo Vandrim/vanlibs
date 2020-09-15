@@ -75,6 +75,9 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (NSInteger)compareVersion:(NSString *)v1 to:(NSString *)v2;
 
+//判断设备是否越狱
++ (BOOL)isJailBreak;
+
 @end
 
 NS_ASSUME_NONNULL_END

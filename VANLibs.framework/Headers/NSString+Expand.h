@@ -80,4 +80,16 @@ typedef enum {
 //将字符串转为本地名字相同的图片
 - (UIImage *)image;
 
+//是否包含emoji
+- (BOOL)contrainsEmoji;
+
+//获取一个文件链接中的结尾文件名称
+- (NSString *)fileName;
+
+//判断是否为整形
+- (BOOL)isInt;
+
+//判断是否为浮点形
+- (BOOL)isFloat;
+
 @end
