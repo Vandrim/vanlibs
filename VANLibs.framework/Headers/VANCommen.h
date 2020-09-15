@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIViewController *)currentViewController;
 
 //屏幕截图
-+ (UIImage*)snapshot:(UIView *)shotView;
++ (UIImage *)snapshot:(UIView *)shotView;
 
 //判断当前控制器是否正在显示
 + (BOOL)isCurrentViewControllerVisible:(UIViewController *)viewController;
@@ -49,10 +49,10 @@ NS_ASSUME_NONNULL_BEGIN
 + (BOOL)isNetConnection;
 
 //颜色转图片
-+ (UIImage*)imageWithColor:(UIColor*)color;
++ (UIImage *)imageWithColor:(UIColor*)color;
 
 //UIImage:去色功能的实现（图片灰色显示）
-+ (UIImage*)imageDiscoloration:(UIImage*)sourceImage;
++ (UIImage *)imageDiscoloration:(UIImage*)sourceImage;
 
 //根据出生日期返回年龄的方法
 + (NSString *)dateStrToAge:(NSString *)birthday;
@@ -77,6 +77,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 //判断设备是否越狱
 + (BOOL)isJailBreak;
+
+//随机生成唯一字符串（identify-MD5-UDID-TimeStamp）
++ (NSString *)createRandomMD5StringWithIdentify:(NSString *)identify;
+
+//jsonString to dictionary
++ (NSDictionary *)dictionaryWithJsonString:(NSString *)jsonString;
 
 @end
 
