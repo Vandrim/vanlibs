@@ -1,6 +1,12 @@
 Pod::Spec.new do |s|
   s.name         = "VANLibs"
-  s.version      = "0.5.0"
+  s.version      = "0.5.1"
+
+  s.osx.deployment_target = '10.10'
+  s.ios.deployment_target = '9.0'
+  s.tvos.deployment_target = '9.0'
+  s.watchos.deployment_target = '2.0'
+
   s.summary      = "A Framework of iOS development. It will help developer more efficient"
   s.homepage     = "https://github.com/Vandrim/vanlibs"
   s.license      = "MIT"
