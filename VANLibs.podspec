@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "VANLibs"
-  s.version      = "0.5.1"
+  s.version      = "0.5.2"
 
   s.osx.deployment_target = '10.10'
   s.ios.deployment_target = '9.0'
