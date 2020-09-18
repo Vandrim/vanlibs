@@ -12,10 +12,22 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)microphoneEnable:(void(^_Nullable)(BOOL enable))authorizedResultBlock;
 //相机权限
 + (void)cameraEnable:(void(^_Nullable)(BOOL enable))authorizedResultBlock;
-//相册权限
-+ (void)photoalbumEnable:(void(^_Nullable)(BOOL enable))authorizedResultBlock;
 //通讯录权限
 + (void)addressBookEnable:(void(^_Nullable)(BOOL enable))authorizedResultBlock;
+
+//相册权限类型
+typedef NS_ENUM(NSInteger, VAPhotoAlbumStatus) {
+    VAPhotoAlbumStatusRestricted = 0,
+    VAPhotoAlbumStatusLimited,
+    VAPhotoAlbumStatusAuthorized,
+    VAPhotoAlbumStatusDenied,
+};
+//读取相册权限
++ (void)readPhotoAlbumStatus:(void(^_Nullable)(VAPhotoAlbumStatus status))authorizedResultBlock;
++ (void)readWritePhotoAlbumEnable:(void(^_Nullable)(BOOL enable))authorizedResultBlock;
+//添加图片至相册权限
++ (void)addPhotoToAlbumEnable:(void(^_Nullable)(BOOL enable))authorizedResultBlock;
+
 
 //打开app系统设置页面
 + (void)openSysSetting;

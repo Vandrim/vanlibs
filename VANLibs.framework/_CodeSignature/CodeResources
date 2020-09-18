@@ -58,11 +58,11 @@
 		</data>
 		<key>Headers/VANAssetOperator.h</key>
 		<data>
-		HMmJNpph12Nq8zHdN96aidpnOsY=
+		YpTT/v7G/slWtUqvdnNR5icKfwg=
 		</data>
 		<key>Headers/VANAuthorizationStatusManager.h</key>
 		<data>
-		WuWye6Jl9rDSltcN8/Xmf7Jwiac=
+		ERO0rB2hIKj0JU4b4OAsiDc0vyc=
 		</data>
 		<key>Headers/VANBottomAdapterView.h</key>
 		<data>
@@ -154,7 +154,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MBJEZaE+sw5SHvJDw0E4ro3JR2Y=
+		0SDmNI2B39USRn2NgZSBHkN3I8g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -322,22 +322,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HMmJNpph12Nq8zHdN96aidpnOsY=
+			YpTT/v7G/slWtUqvdnNR5icKfwg=
 			</data>
 			<key>hash2</key>
 			<data>
-			mNE7zOPTSP+tIVxW5zp+7mWrR6mRwYyQ2LAsmNzXRQg=
+			tCSHCJuLm7T2EbeCV5+otnV1snp+zuHKH+3ssllw3h0=
 			</data>
 		</dict>
 		<key>Headers/VANAuthorizationStatusManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WuWye6Jl9rDSltcN8/Xmf7Jwiac=
+			ERO0rB2hIKj0JU4b4OAsiDc0vyc=
 			</data>
 			<key>hash2</key>
 			<data>
-			n6JU5syGuJLGM7ZrQGGVYbUB35oooDwrMZdi44ciLZ8=
+			XtAZgWMNXSAaZ4fim1wNzRuIOLo2+6sNDOs2Lc462Ys=
 			</data>
 		</dict>
 		<key>Headers/VANBottomAdapterView.h</key>
