@@ -10,6 +10,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)networkEnable:(void(^_Nullable)(BOOL enable))authorizedResultBlock;
 //麦克风权限
 + (void)microphoneEnable:(void(^_Nullable)(BOOL enable))authorizedResultBlock;
+//是否支持相机
++ (void)cameraAvailable:(void(^_Nullable)(BOOL enable))resultBlock;
 //相机权限
 + (void)cameraEnable:(void(^_Nullable)(BOOL enable))authorizedResultBlock;
 //通讯录权限
