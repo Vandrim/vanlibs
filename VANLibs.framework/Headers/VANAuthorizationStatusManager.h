@@ -7,15 +7,13 @@ NS_ASSUME_NONNULL_BEGIN
 @interface VANAuthorizationStatusManager : NSObject
 
 //网络权限
-+ (void)networkEnable:(void(^_Nullable)(BOOL enable))authorizedResultBlock;
++ (void)networkAuthorized:(void(^_Nullable)(BOOL authorized))authorizedResultBlock;
 //麦克风权限
-+ (void)microphoneEnable:(void(^_Nullable)(BOOL enable))authorizedResultBlock;
-//是否支持相机
-+ (void)cameraAvailable:(void(^_Nullable)(BOOL enable))resultBlock;
++ (void)microphoneAuthorized:(void(^_Nullable)(BOOL authorized))authorizedResultBlock;
 //相机权限
-+ (void)cameraEnable:(void(^_Nullable)(BOOL enable))authorizedResultBlock;
++ (void)cameraAuthorized:(void(^_Nullable)(BOOL enable, BOOL authorized))authorizedResultBlock;
 //通讯录权限
-+ (void)addressBookEnable:(void(^_Nullable)(BOOL enable))authorizedResultBlock;
++ (void)addressBookAuthorized:(void(^_Nullable)(BOOL authorized))authorizedResultBlock;
 
 //相册权限类型
 typedef NS_ENUM(NSInteger, VAPhotoAlbumStatus) {
@@ -26,9 +24,9 @@ typedef NS_ENUM(NSInteger, VAPhotoAlbumStatus) {
 };
 //读取相册权限
 + (void)readPhotoAlbumStatus:(void(^_Nullable)(VAPhotoAlbumStatus status))authorizedResultBlock;
-+ (void)readWritePhotoAlbumEnable:(void(^_Nullable)(BOOL enable))authorizedResultBlock;
++ (void)readWritePhotoAlbumAuthorized:(void(^_Nullable)(BOOL authorized))authorizedResultBlock;
 //添加图片至相册权限
-+ (void)addPhotoToAlbumEnable:(void(^_Nullable)(BOOL enable))authorizedResultBlock;
++ (void)addPhotoToAlbumAuthorized:(void(^_Nullable)(BOOL authorized))authorizedResultBlock;
 
 
 //打开app系统设置页面

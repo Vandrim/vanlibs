@@ -7,8 +7,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 //设置图片
 - (void)van_setImageWithURL:(nullable NSString *)url placeholder:(nullable UIImage *)placeholder;
-- (void)van_setImageWithURL:(nullable NSString *)url placeholder:(nullable UIImage *)placeholder useCacheImage:(BOOL)userCache;
-- (void)van_setImageWithURL:(nullable NSString *)url placeholder:(nullable UIImage *)placeholder useCacheImage:(BOOL)userCache andSize:(nullable void(^)(CGSize size))sizeBlock;
+- (void)van_setImageWithURL:(nullable NSString *)url placeholder:(nullable UIImage *)placeholder cache:(BOOL)cache;
+- (void)van_setImageWithURL:(nullable NSString *)url placeholder:(nullable UIImage *)placeholder cache:(BOOL)cache completed:(nullable void(^)(UIImage * _Nullable image, NSError * _Nullable error))completedBlock;
 
 @end
 
